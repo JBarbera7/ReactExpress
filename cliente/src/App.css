@@ -1,0 +1,252 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap");
+
+.my-navbar {
+  background: linear-gradient(to bottom, #3f3e3e, rgb(63, 62, 62));
+}
+
+h1 {
+  color: black;
+  font-size: 2rem !important;
+  font-family: "Roboto";
+}
+
+.fondo-text {
+  background-color: red;
+  height: 100vh;
+}
+
+.cart-item-count {
+  font-size: 14px !important;
+  color: red;
+}
+
+.cart-item-list {
+  font-size: 2rem;
+  color: #000000;
+  padding: 0 15px;
+}
+
+#botonA{
+
+  background-color: green;
+  border-color: green;
+  
+}
+
+.cart-widget {
+  background-color: rgb(241, 238, 238);
+  position: fixed;
+  z-index: 9;
+  right: 0;
+  margin: 10px;
+  border-radius: 10rem;
+}
+
+.login {
+  background-color: #ffffff;
+  position: fixed;
+ 
+  z-index: 9;
+  right: 0;
+  margin: 10px;
+  border-radius: 10rem;
+}
+
+
+
+.item-list-container {
+  padding-top: 20px !important;
+}
+
+.my-nav-link {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2rem;
+  color: #ffffff;
+  padding: 0 20px;
+  margin: 3px 10px;
+  text-decoration: none;
+  text-rendering: geometricprecision;
+  will-change: transform;
+  overflow: hidden;
+}
+
+.my-nav-link:after {
+  height: 100%;
+  width: 100%;
+  transform: translate(-100%, 0) rotate(10deg);
+  transform-origin: top left;
+  transition: 0.2s transform ease-out;
+  will-change: transform;
+  color: black;
+  z-index: -1;
+}
+
+.my-nav-link:hover:after {
+  transform: translate(0, 0);
+}
+
+.my-nav-link:hover {
+  border: 2px solid transparent;
+  color: rgb(255, 255, 255) !important;
+  transform: scale(1.05);
+  will-change: transform;
+}
+
+.my-selected-link {
+  color: #000000 !important;
+}
+
+.my-logo {
+  font-family: "Roboto", sans-serif;
+  color: #ffffff !important;
+  font-size: 1.8rem !important;
+  padding-right: 100px;
+}
+
+
+#Taller { 
+  display:flex;
+  margin-top: 20px;
+  justify-content: center;
+  
+}
+
+#imgAlquiler{
+
+display: flex;
+margin-left: 30px;
+}
+
+.navbar-toggler-icon {
+  color: #fff !important;
+}
+
+.actite-item-link {
+  color: rgb(29, 29, 29);
+}
+
+.actite-item-link:hover {
+  color: rgb(29, 29, 29);
+}
+
+.item-link {
+  color: rgb(29, 29, 29);
+  text-decoration: none !important;
+  text-align: center !important;
+}
+
+.form-calculator-minmax {
+  width: 120px !important;
+}
+
+.card-img-top {
+  padding: 10px;
+}
+
+#LogIn{
+
+font-size: large;
+margin-left: 460px;
+font-family: "Roboto", sans-serif;
+
+}
+
+#LogOut{
+
+  font-size: large;
+  margin-left: 10px;
+  font-family: "Roboto", sans-serif;
+  text-decoration:none;
+  
+  }
+
+.my-price-order {
+  padding: 15px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  color: black;
+  font-family: "Roboto";
+}
+
+.form-calculator-minmax {
+  line-height: 40px;
+  min-height: 40px;
+  border: 1px solid #456;
+  border-radius: 20px;
+}
+
+.form-calculator-minmax > button {
+  border: none;
+  font-size: 1.5rem !important;
+  color: green;
+  background-color: #fff;
+  font-weight: bold;
+  border-radius: 50%;
+}
+
+.form-calculator-minmax > input {
+  border: none;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: black;
+  background-color: #fff !important;
+}
+
+.form-calculator-text {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #494f66;
+  padding-bottom: 4px;
+}
+
+.form-calculator-text-minmax {
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+  color: #676f8f;
+  padding-bottom: 16px;
+}
+
+.bloque-envios {
+  text-align: center;
+  width: 100%;
+  height: 100px;
+}
+
+.bloque-envios .be-sect {
+  display: block;
+  width: 33%;
+  float: left;
+  border-right: 1px solid #f0f0f0;
+}
+
+.bloque-envios p.text1 {
+  display: block;
+  font-weight: bold;
+  font-size: 10px;
+  height: 10px;
+}
+
+.bloque-envios p.text2 {
+  display: block;
+  font-weight: 500;
+  font-size: 9px;
+}
+
+.bloque-envios .titulo {
+  font-size: 16px;
+  padding-bottom: 10px;
+  color: #ed9700;
+  font-weight: 500;
+}
+
+.buy-product {
+  background-color: #f9f9f9;
+  border-radius: 5px;
+}
